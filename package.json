@@ -1,0 +1,29 @@
+{
+  "name": "dform",
+  "version": "1.0.0",
+  "description": "A decentralized application form",
+  "main": "",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "openzeppelin-solidity": "^1.12.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "truffle test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GalleonProject/dFrom.git"
+  },
+  "keywords": [
+    "solidity"
+  ],
+  "author": "Kenichi Naoe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GalleonProject/dFrom/issues"
+  },
+  "homepage": "https://github.com/GalleonProject/dFrom#readme"
+}
