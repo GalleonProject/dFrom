@@ -16,12 +16,12 @@ contract Form is Ownable {
     Message[] private messages;
 
     function sendApplication(string _body, string _email) external {
-        messages[messagesIndex] = Message({
+        messages.push(Message({
             body: _body,
             email: _email,
             sender: msg.sender,
             createdAt: now
-        });
+        }));
         messagesIndex++;
     }
 
